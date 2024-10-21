@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Портфолио</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./favicons/favicon.svg"
+			type="image/x-icon"
+		/>
+		<link rel="apple-touch-icon" href="./favicons/favicons.png" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header-content">
+					<img
+						class="header-image"
+						src="./img/photo.png"
+						srcset="./img/photo@2x.png 2x"
+						alt="photo"
+					/>
+					<div class="header-description">
+						<h1 class="header-title">Денис Цыбин</h1>
+						<p class="header-text">
+							Веб-разработчик | <span id="tech-stack"></span><br />
+							Создаю адаптивные и быстрые веб-сайты
+						</p>
+						<div class="header-button">
+							<a href="#skills" class="btn dark">Скиллы</a>
+							<a href="#portfolio" class="btn dark">Портфолио</a>
+							<a href="#contacts" class="btn light">Контакты</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<video muted autoplay loop class="header-video">
+				<source type="video/mp4" src="./videos/background.mp4" />
+			</video>
+		</header>
+
+		<section id="skills" class="skills">
+			<div class="container">
+				<h2 class="skills-title">Мои навыки</h2>
+				<div class="skills-container">
+					<div class="skill-item">HTML5</div>
+					<div class="skill-item">CSS3</div>
+					<div class="skill-item">JavaScript</div>
+					<div class="skill-item">Vue.js</div>
+					<div class="skill-item">React</div>
+					<div class="skill-item">Bootstrap</div>
+					<div class="skill-item">Tailwind CSS</div>
+					<div class="skill-item">Git</div>
+					<div class="skill-item">Responsive Design</div>
+					<div class="skill-item">SEO Basics</div>
+					<div class="skill-item">React Native</div>
+				</div>
+			</div>
+		</section>
+
+		<main id="portfolio">
+			<section class="portfolio">
+				<div class="container">
+					<h2 class="portfolio-title">Портфолио</h2>
+					<div class="projects">
+						<article class="project">
+							<a href="./pento.html">
+								<img
+									src="./img/project-01.jpg"
+									alt="project1"
+									srcset="./img/project-01@2x.jpg 2x"
+									class="project-img"
+								/>
+								<h3 class="project-title">Сайт магазина мебели</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./gotravel.html">
+								<img
+									src="./img/project-02.jpg"
+									alt="project2"
+									srcset="./img/project-02@2x.jpg 2x"
+									class="project-img"
+								/>
+								<h3 class="project-title">Сайт туристического агентства</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./lofthouse.html">
+								<img
+									src="./img/project-03.jpg"
+									alt="project3"
+									srcset="./img/project-03@2x.jpg 2x"
+									class="project-img"
+								/>
+								<h3 class="project-title">Сайт жилого комплекса</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./pavlovaph.html">
+								<img
+									src="./img/pavlovaph.jpg"
+									alt="project4"
+									class="project-img project-img-big"
+								/>
+								<h3 class="project-title">Портфолио фотографа</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./yourlogo.html">
+								<img
+									src="./img/YourLogo.jpg"
+									alt="project5"
+									class="project-img project-img-big"
+								/>
+								<h3 class="project-title">Макет новостного сайта</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./calculator.html">
+								<img
+									src="./img/calculator.jpg"
+									alt="project6"
+									class="project-img project-img-big"
+								/>
+								<h3 class="project-title">Калькулятор</h3>
+							</a>
+						</article>
+
+						<article class="project">
+							<a href="./todoapp.html">
+								<img
+									src="./img/todoapp.jpg"
+									alt="project7"
+									class="project-img project-img-big"
+								/>
+								<h3 class="project-title">ToDo App - менеджер задач</h3>
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<section id="contacts" class="contacts">
+			<div class="container">
+				<h2 class="contact-title">Контакты</h2>
+				<div class="contact-links">
+					<a href="https://t.me/tsybin_d" target="_blank" class="messenger">
+						<img src="./img/telegram.svg" alt="Telegram" />
+						<span>Написать в Telegram</span>
+					</a>
+					<a href="https://wa.me/79876221710" target="_blank" class="messenger">
+						<img src="./img/whatsapp.svg" alt="WhatsApp" />
+						<span>Отправить в WhatsApp</span>
+					</a>
+					<a href="https://vk.com/keep3r_str" target="_blank" class="messenger">
+						<img src="./img/vk.svg" alt="Вконтакте" />
+						<span>Связаться Вконтакте</span>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<p>
+						© 2024 Денис Цыбин<br />
+						Frontend-разработчик: HTML, CSS, JavaScript, <br />VueJS, Bootstrap,
+						Tailwind, React, React Native<br />
+						Стерлитамак
+					</p>
+					<p>Создаю современные, быстрые и безопасные веб-приложения</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

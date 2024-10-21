@@ -1,0 +1,135 @@
+@media (max-width: 1080px) {
+	.header-content {
+		gap: 10px;
+	}
+	.header-image {
+		width: 300px;
+	}
+	.header-title {
+		font-size: 52px;
+	}
+	.header-text {
+		font-size: 22px;
+	}
+
+	.skills-title {
+		font-size: 42px;
+	}
+
+	.portfolio-title {
+		font-size: 42px;
+	}
+
+	.contact-title {
+		font-size: 42px;
+	}
+	.inner-page-title {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header {
+		padding-top: 20px;
+		padding-bottom: 40px;
+		border-radius: 0 0 60px 0;
+		background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+	}
+	.header-video {
+		display: none;
+	}
+	.header-content {
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 20px;
+	}
+	.header-image {
+		width: 100%;
+	}
+	.header-title {
+		font-size: 30px;
+	}
+	.header-text {
+		font-size: 16px;
+	}
+	.btn {
+		padding: 12px 15px;
+	}
+
+	.skills-container {
+		gap: 10px;
+	}
+
+	.skills {
+		padding-top: 40px;
+	}
+	.skills-title {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.skill-item {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+
+	.portfolio {
+		padding: 40px 0;
+	}
+	.portfolio-title {
+		margin-bottom: 30px;
+		font-size: 28px;
+	}
+	.projects {
+		gap: 20px;
+	}
+
+	.project {
+		a {
+			text-decoration: none;
+		}
+		margin-bottom: 10px;
+	}
+	.project-img {
+		margin-bottom: 20px;
+		min-width: 290px;
+	}
+	.project-title {
+		font-size: 16px;
+	}
+	.contacts {
+		border-radius: 60px 0 0 0;
+		padding: 40px 15px;
+	}
+	.contact-title {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.contact-links {
+		gap: 20px;
+	}
+	.messenger {
+		border-radius: 12px;
+		padding: 32px 20px;
+
+		span {
+			font-size: 16px;
+		}
+	}
+	.footer-inner {
+		font-size: 12px;
+	}
+
+	.inner-page {
+		padding: 40px 0 20px;
+	}
+	.inner-page-title {
+		font-size: 28px;
+	}
+	.inner-page-img {
+		min-width: 290px;
+		margin-bottom: 20px;
+	}
+	.inner-page-button {
+		padding: 20px;
+	}
+}
